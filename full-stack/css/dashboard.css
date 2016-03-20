@@ -221,7 +221,7 @@ section {
 	font-size: 35px;
 	text-align: right;
 	padding: 15px 10px 5px 0px;
-	font-family:Ebrima, Candara;
+	font-family:Ebrima, Candara, microsoft yahei, Arial,SimHei;
 }
 
 .dash-word {
@@ -230,7 +230,7 @@ section {
 	text-align: right;
 	padding: 0px 10px 15px 0px;
 	font-size: 15px;
-	font-family:Ebrima, Candara;
+	font-family:Ebrima, Candara, microsoft yahei, Arial,SimHei;
 }
 
 /* table */
