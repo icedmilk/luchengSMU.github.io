@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./dashboard.css">
+	<style type="text/css">
+	/**
+	  Write your CSS code here!!!
+	*/
+	</style>
+</head>
+<body>
+	<!-- HEADER start -->
+	<header>
+		<h1>My Dashboard</h1>
+		<div class="nick">
+			<span style="float: right;">Nick</span>
+			<img src="./avatar.jpg" class="avatar" alt="" />
+		</div>
+		<div class="alert"><span class="remind-num">7</span><i class="iconfont remind-icon">&#xe621;</i></div>
+	</header>
+	<!-- HEADER end -->
+
+	
+	<!-- NAV start-->
+	<div class="nav-wrapper">
+		<nav>
+			<div class="search"><!-- 
+				<div type="search" >Search...</div> -->
+				<input type="text" class="search-input" placeholder="Search...&nbsp;"> 
+				<i class="iconfont" style="right: 15px;top:3px;position: relative;color: #4c5b6d;">&#xe600;</i>
+			</div>
+			<ul>
+			    <li><i class="iconfont">&#xf0068;</i>Home</li>
+			    <li><i class="iconfont">&#xe60d;</i>My Data</li>
+				<li><i class="iconfont">&#xe621;</i>My Components</li>
+				<li><i class="iconfont">&#xe603;</i>My Settins</li>
+				<li><i class="iconfont">&#xe640;</i>My Log</li>
+				<li><i class="iconfont">&#xe61c;</i>My Tools</li>
+				<li><i class="iconfont">&#xe6dc;</i>My Portlets</li>
+			</ul>
+		</nav>
+	</div>
+	<!-- NAV end -->
+
+	<div class="main">
+
+		<!-- LIST start -->
+		<h2>My Dashboard<span>a demo for practice</span></h2>
+		<section>
+			<ul class="demo-list">
+				<li>
+					<div class="dash-wrapper">
+						<div class="dash-line-1">
+							<div class="dash-number">1349</div>
+							<div class="dash-word">New Feedbacks</div>
+						</div>
+						<div class="dash-line-2">
+							<div class="dash-view-more"><span>VIEW MORE</span><span><i class="iconfont" >&#xe67d;</i></span></div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="dash-wrapper">
+						<div class="dash-line-1" style="background-color:#e7505a;">
+							<div class="dash-number">12,5%</div>
+							<div class="dash-word">Total Profit</div>
+						</div>
+						<div class="dash-line-2" style="background-color: #e6434e;">
+							<div class="dash-view-more"><span>VIEW MORE</span><span><i class="iconfont" >&#xe67d;</i></span></div>
+							
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="dash-wrapper">
+						<div class="dash-line-1" style="background-color: #32c5d2;">
+							<div class="dash-number">549</div>
+							<div class="dash-word">New Orders</div>
+						</div>
+						<div class="dash-line-2" style="background-color: #2dbcc8;">
+							<div class="dash-view-more"><span>VIEW MORE</span><span><i class="iconfont" >&#xe67d;</i></span></div>
+							
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="dash-wrapper">
+						<div class="dash-line-1" style="background-color: #8e44ad;">
+							<div class="dash-number">+ 89%</div>
+							<div class="dash-word">Success Rate</div>
+						</div>
+						<div class="dash-line-2" style="background-color: #853fa2;">
+							<div class="dash-view-more"><span>VIEW MORE</span><span><i class="iconfont" >&#xe67d;</i></span></div>
+							
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</section>
+		<!-- LIST end -->
+		
+		<!-- Table start -->
+		<section>
+			<div class="table-header">
+				<h3>MY TABLE</h3>
+				<div class="buttons">
+					<button class="action">Actions</button>
+					<button class="setting">Settings</button>
+				</div>
+			</div>
+			<div class="table-content">
+				<table>
+				    <tr>
+				        <td width="25%">User name</td>
+				        <td width="45%" class="font-blue">Nick</td>
+				        <td class="font-grey">My nick name</td>
+				    </tr>
+
+				    <tr>
+				        <td>First name</td>
+				        <td class="font-blue" style="font-style: italic;">Nick Jobs</td>
+				        <td class="font-grey">Not Steve Jobs</td>
+				    </tr>
+
+				    <tr>
+				        <td>Sex</td>
+				        <td style="color: #808080;">not selected</td>
+				        <td class="font-grey">Female or male</td>
+				    </tr>
+
+				    <tr>
+				        <td>Group</td>
+				        <td class=""><span class="font-red">Admin</span></td>
+				        <td class="font-grey">You have the <span style="font-weight:bold;">admin</span> access</td>
+				    </tr>
+
+				    <tr>
+				        <td>Status</td>
+				        <td class="font-blue">Active</td>
+				        <td class="font-grey">Your server is running now</td>
+				    </tr>
+
+				    <tr>
+				        <td>Date of birth</td>
+				        <td class="font-blue">15/05/1984</td>
+				        <td class="font-grey">Hello world!</td>
+				    </tr>
+
+				    <tr>
+				        <td>Type State</td>
+				        <td><span class="font-red">Loading</span></td>
+				        <td class="font-grey">CSS is different from C++</td>
+				    </tr>
+
+				    <tr>
+				        <td>Tags</td>
+				        <td class="font-blue">html, javascript</td>
+				        <td class="font-grey">Funny</td>
+				    </tr>
+
+				    <tr>
+				        <td>Country</td>
+				        <td class="font-blue">China</td>
+				        <td class="font-grey">I'm from China</td>
+				    </tr>
+				</table>
+			</div>
+		</section>
+		<!-- LIST end -->
+
+	</div>
+</body>
+</html>
